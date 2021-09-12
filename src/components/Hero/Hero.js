@@ -11,11 +11,10 @@ import Typed from "react-typed";
 import { LeftSection } from "./HeroStyles";
 import { ProfilePicture } from "../../constants/constants";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   avatar: {
-    width: theme.spacing(25),
-    height: theme.spacing(25),
-    margin: theme.spacing(2),
+    width: "175px",
+    height: "175px",
   },
   title: {
     color: "tomato",
@@ -38,33 +37,33 @@ const useStyles = makeStyles((theme) => ({
 const Hero = (props) => {
   const classes = useStyles();
   return (
-    <Section row nopadding>
+    <Section row>
       <LeftSection>
         <Box>
-        <SectionTitle main center>
           <Avatar
             className={classes.avatar}
             src={ProfilePicture.image}
             alt="Deepank Sharma"
           />
-          <Typography className={classes.title} variant="h2">
-            <Typed strings={["Deepank Sharma"]} typeSpeed={40} />
-          </Typography>
-        </SectionTitle>
-        <SectionText>
-          <Typography className={classes.subtitle} variant="h3">
-            <Typed
-              strings={[
-                "Front-end Developer",
-                "Web Developer",
-                "React Developer",
-              ]}
-              typeSpeed={40}
-              backSpeed={60}
-              loop
-            />
-          </Typography>
-        </SectionText>
+          <SectionTitle main center>
+            <Typography className={classes.title} variant="h2">
+              <Typed strings={["Deepank Sharma"]} typeSpeed={40} />
+            </Typography>
+          </SectionTitle>
+          <SectionText>
+            <Typography className={classes.subtitle} variant="h3">
+              <Typed
+                strings={[
+                  "Front-end Developer",
+                  "Web Developer",
+                  "React Developer",
+                ]}
+                typeSpeed={40}
+                backSpeed={60}
+                loop
+              />
+            </Typography>
+          </SectionText>
         </Box>
       </LeftSection>
     </Section>
