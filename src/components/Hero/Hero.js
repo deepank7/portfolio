@@ -15,6 +15,7 @@ const useStyles = makeStyles(() => ({
   avatar: {
     width: "175px",
     height: "175px",
+    margin: "0 0 0 36px",
   },
   title: {
     color: "tomato",
