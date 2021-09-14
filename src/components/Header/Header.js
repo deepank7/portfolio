@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import { DiCodeigniter } from "react-icons/di";
 
 import {
@@ -47,7 +47,7 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://google.com">
-        <AiFillInstagram size="3rem" />
+        <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
