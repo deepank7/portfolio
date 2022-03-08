@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Hi, I'm Deepank! I am a passionate front-end developer with a deep interest in emerging technologies and how people use and interact with them.
+      I have a keen interest in development and football and would love to combine the two.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -82,10 +83,10 @@ const Timeline = () => {
                         x2="208"
                         y2="0.500295"
                         gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" />
+                        <stop stopColor="white" />
                         <stop
                           offset="0.79478"
-                          stop-color="white"
+                          stopColor="white"
                           stop-opacity="0"
                         />
                       </linearGradient>
