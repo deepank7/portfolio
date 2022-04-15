@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       Hi, I'm Deepank! I am a passionate front-end developer with a deep interest in emerging technologies and how people use and interact with them.
-      I have a keen interest in development and football and would love to combine the two.
+      I also have a keen interest on web3.0 and would love to combine the two.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

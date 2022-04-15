@@ -28,7 +28,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've experience working on multiple stack of technolgies like JavaScript,
-      Java, SQL, Ruby on Rails. My major experience lies in the fron-end
+      Java, SQL, Ruby on Rails. My major experience lies in the front-end
       technolgies like JS, React, NextJs.
     </SectionText>
     <List>
